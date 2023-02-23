@@ -8,8 +8,8 @@ import lombok.*;
 @Entity
 @Getter
 @Setter
-@NoArgsConstructor
 @AllArgsConstructor
+@RequiredArgsConstructor
 public class Server {
     @Id
     @GeneratedValue(strategy = GenerationType.AUTO)
